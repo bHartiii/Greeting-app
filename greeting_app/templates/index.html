@@ -13,7 +13,8 @@
   <body>
     <div class="container">
     <h1 class="text-center">Hello, world!</h1>
-    <form>
+    <form autocomplete="off" method="post" action = "">
+     {% csrf_token %}
         <div class="form-group">
             <label for="name">Name : </label>
             <input type="text" class="form-control" id="name" name="name">
@@ -26,7 +27,7 @@
              <label for="msg">Message : </label>
              <input type="text" class="form-control" id="msg" name="msg">
         </div>
-        
+        <br>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
     </div>
