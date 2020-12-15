@@ -1,6 +1,6 @@
 from django.db import models
 
-class Index(models.Model):
+class User(models.Model):
     name = models.TextField()
     age = models.TextField()
     msg = models.TextField()

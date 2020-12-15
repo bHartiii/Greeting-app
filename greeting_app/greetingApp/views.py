@@ -1,15 +1,19 @@
 from django.shortcuts import render,HttpResponse
 from datetime import datetime
-from greetingApp.models import Index
+from greetingApp.models import User
+from django.contrib import messages
 
 def index(request):
-    context = {
-        "variable" : "Hello!!!"
-    }
+
     if request.method == 'POST':
         name = request.POST.get('name')
         age = request.POST.get('age')
         msg = request.POST.get('msg')
-        index = Index(name=name, age=age, msg=msg, date=datetime.today())
+        index = User(name=name, age=age, msg=msg, date=datetime.today())
         index.save()
-    return render(request,'index.html', context)
+        messages.success(request, 'Your messgae has been sent!!!')
+    return render(request,'index.html')
+
+def show(request):
+    users = User.objects.all()
+    return render(request, 'show.html')
