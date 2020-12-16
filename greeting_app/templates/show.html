@@ -1,24 +1,21 @@
-<html>
-<head>
-  <title>Messages</title>
-</head>
-
-<body>
+{% extends 'base.html' %}
+{% block title %}Message{% endblock title %}
+{% block body %}
     <div class="card" style="width: 18rem;">
         {% for user in users %}
-        <div class="card-header">
-            <h2 class="card-title">User : {{user.id}}</h2>
-        </div>
-        <div class="card-body">
-            <ul class="card-text">
-                <li>Name : {{ user.name }}</li>
-                <li>Age : {{ user.age }}</li>
-                <li>Message : {{ user.msg }}</li>
-                <li>{{  user.date }}</li>
-            </ul>
-        </div>
-        {% endfor %}
+            <div class="card-header">
+                <h2 class="card-title">User : {{user.id}}</h2>
+            </div>
+            <div class="card-body">
+                <ul class="card-text">
+                    <li>Name : {{ user.name }}</li>
+                    <li>Message : {{ user.msg }}</li>
+                    <li>{{  user.date }}</li>
+                </ul>
+                <a href="/update/{{ user.id }}" class="btn btn-primary">Edit</a>
+                <a  class= "btn btn-danger"href="/delete/{{ user.id }}" class="btn btn-primary">Delete</a>
+             </div>
+         {% endfor %}
     </div>
-</body>
+{% endblock body %}
 
-</html>
