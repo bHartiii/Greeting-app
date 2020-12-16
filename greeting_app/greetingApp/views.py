@@ -15,5 +15,13 @@ def index(request):
     return render(request,'index.html')
 
 def show(request):
-    users = User.objects.all()
-    return render(request, 'show.html')
+    context = {
+        "users" : User.objects.all()
+    }
+    return render(request, 'show.html',context)
+
+def update(request):
+    context = {
+        "users": User.objects.all()
+    }
+    return render(request,'update.html',context)

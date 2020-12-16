@@ -5,10 +5,19 @@
 
 <body>
     <div class="card" style="width: 18rem;">
-        <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        {% for user in users %}
+        <div class="card-header">
+            <h2 class="card-title">User : {{user.id}}</h2>
         </div>
+        <div class="card-body">
+            <ul class="card-text">
+                <li>Name : {{ user.name }}</li>
+                <li>Age : {{ user.age }}</li>
+                <li>Message : {{ user.msg }}</li>
+                <li>{{  user.date }}</li>
+            </ul>
+        </div>
+        {% endfor %}
     </div>
 </body>
 
