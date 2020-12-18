@@ -7,15 +7,13 @@
 	    {% for message in messages %}
        	    	<div class="alert alert-{{ message.tags }} alert-dissimsible fade show" role="alert">
            	    <strong>{{ message }}</strong>
-          	    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
-              	    <span aria-hidden="true">&times;</span>
-          	    </button>
+          	    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
       		    </div>
       	{% endfor %}
     {% endif %}
     <div class="container">
-        <h1 class="text-center">Give your Message here!</h1>
-        <form autocomplete="off" method="post" action = ""class="form">
+        <h1 class="text-center">Give your message here!!!</h1>
+        <form autocomplete="off" name="form" method="post" action = ""class="form"  onsubmit="return validateform()">
             {% csrf_token %}
             <div class="form-group">
                 <label for="name">Name : </label>
