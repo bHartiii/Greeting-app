@@ -5,6 +5,7 @@
     font-weight: 400;
     color:slategray;
     font-size: 18px;
+    margin-left: 15px;
 }
 .card{
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVIsLkO9JU-mXSMWkAUow3ZMZyn3td6rM56g&usqp=CAU");
@@ -18,8 +19,8 @@ body{
 .card:hover {
     transform: scale(1.05); 
 }
-.card-title{
-    margin-left:15%;
+.date,.card-title{
+    margin:2%;
 }
 #card-btn{
     margin-left:15px ;
