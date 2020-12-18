@@ -14,16 +14,16 @@
     {% if users %}
     {% for user in users %}
     <div class="container">
-        <h1 class="text-center">Update Details</h1>
+        <h1 class="text-center">Update Greeting</h1>
         <form autocomplete="off" method="post" action = "/update/{{user.id}}" class="form">
             {% csrf_token %}
             <div class="form-group">
                 <label for="name">Name : </label>
-                <input type="text" class="form-control shadow" id="name" name="name" value={{ user.name }}>  
+                <input type="text" class="form-control shadow" id="name" name="name" value="{{ user.name }}">  
             </div>
             <div class="form-group">
                 <label for="msg">Message : </label>
-                <input type="text" class="form-control shadow" id="msg" name="msg" value={{ user.msg }}>
+                <input type="text" class="form-control shadow" id="msg" name="msg" value="{{ user.msg }}">
             </div>
             <br>
             <button type="submit" class="btn btn-outline-primary" id="form-btn">Update</button>

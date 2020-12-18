@@ -5,15 +5,14 @@
       <div class="row" style="padding:auto">
         {% for user in users %}
         <div class="col-3">
-          <div class="card shadow p-3 mb-5 bg-white rounded " style="width: 15rem" >      
+          <div class="card shadow p-3 mb-5 bg-white rounded " style="width:15rem" >      
             <div class="card-header">
-              <h2 class="card-title">User : {{user.id}}</h2>
+              <h2 class="card-title">{{user.name}}</h2>
             </div>
             <div class="card-body">
               <ul class="card-text">
-                <li><b>Name : </b>{{ user.name }}</li>
-                <li><b>Message : </b>{{ user.msg }}</li>
-                <li>{{  user.date }}</li>
+                <p>{{ user.msg }}</p>
+                {{  user.date }}
               </ul>
               <a href="/update/{{ user.id }}" class="btn btn-outline-primary"id="card-btn" >Edit</a>
               <a  class= "btn btn-outline-danger"href="/delete/{{ user.id }}" id="card-btn">Delete</a>
