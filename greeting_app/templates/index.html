@@ -13,7 +13,7 @@
     {% endif %}
     <div class="container">
         <h1 class="text-center">Give your message here!!!</h1>
-        <form autocomplete="off" name="form" method="post" action = ""class="form"  onsubmit="return validateform()">
+        <form autocomplete="off" name="form" method="post" action = ""class="form" onsubmit="return validateform()">
             {% csrf_token %}
             <div class="form-group">
                 <label for="name">Name : </label>
@@ -24,7 +24,7 @@
                 <input type="text" class="form-control shadow" id="msg" name="msg">
             </div>
             <br>
-            <button type="submit" class="btn btn-outline-primary"id="form-btn" >Submit</button>
+            <button type="submit" class="btn btn-outline-primary"id="form-btn">Submit</button>
         </form>
     </div>
 {% endblock body %}

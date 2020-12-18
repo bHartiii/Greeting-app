@@ -22,7 +22,7 @@ body{
 .date,.card-title{
     margin:2%;
 }
-#card-btn{
+#card-btn,#delete{
     margin-left:15px ;
 }
 h1{
