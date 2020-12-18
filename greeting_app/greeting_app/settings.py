@@ -27,7 +27,7 @@ SECRET_KEY = '^df%c@yhlf6(0q$$+yu&!t3ku)jhgr*$wh6)!gh$4kc*equ@74'
 DEBUG = True
 
 ALLOWED_HOSTS = []
-
+REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoSchema' }
 
 # Application definition
 
@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+#    'polls',
+   'rest_framework_swagger',
 ]
 
 MIDDLEWARE = [

@@ -5,8 +5,8 @@
 {% block body %}
     {% if messages %}
 	    {% for message in messages %}
-       	    	<div class="alert alert-{{ message.tags }} alert-dissimsible fade show my-0" role="alert">
-           	    {{ message }}
+       	    	<div class="alert alert-{{ message.tags }} alert-dissimsible fade show" role="alert">
+           	    <strong>{{ message }}</strong>
           	    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close">
               	    <span aria-hidden="true">&times;</span>
           	    </button>
@@ -14,19 +14,19 @@
       	{% endfor %}
     {% endif %}
     <div class="container">
-        <h1 class="text-center">Hello, world!</h1>
-        <form autocomplete="off" method="post" action = "">
+        <h1 class="text-center">Give your Message here!</h1>
+        <form autocomplete="off" method="post" action = ""class="form">
             {% csrf_token %}
             <div class="form-group">
                 <label for="name">Name : </label>
-                <input type="text" class="form-control" id="name" name="name">
+                <input type="text" class="form-control shadow" id="name" name="name">
             </div>
             <div class="form-group">
-                 <label for="msg">Message : </label>
-                <input type="text" class="form-control" id="msg" name="msg">
+                <label for="msg">Message : </label>
+                <input type="text" class="form-control shadow" id="msg" name="msg">
             </div>
             <br>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-outline-primary"id="form-btn" >Submit</button>
         </form>
     </div>
 {% endblock body %}
