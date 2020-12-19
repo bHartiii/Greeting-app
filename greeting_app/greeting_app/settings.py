@@ -32,14 +32,14 @@ REST_FRAMEWORK = { 'DEFAULT_SCHEMA_CLASS': 'rest_framework.schemas.coreapi.AutoS
 # Application definition
 
 INSTALLED_APPS = [
-    'greetingApp.apps.GreetingappConfig',
+    'greetingsApp.apps.GreetingsappConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-#    'polls',
+    # 'polls',
    'rest_framework_swagger',
 ]
 

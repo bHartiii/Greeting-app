@@ -22,5 +22,5 @@ admin.site.index_title = "Welcome to Greeting app Portal"
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('greetingApp.urls')),
+    path('', include('greetingsApp.urls')),
 ]

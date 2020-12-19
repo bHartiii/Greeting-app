@@ -1,7 +1,7 @@
 import js2py
 from django.shortcuts import render,HttpResponse,redirect
 from datetime import datetime
-from greetingApp.models import User
+from greetingsApp.models import Users
 from django.contrib import messages
 
 #counter = 'function getNextSequenceValue(sequenceName){var sequenceDocument = db.findAndModify({query:{_id: sequenceName },update: {$inc:{sequence_value:1}},new:true});return sequenceDocument.sequence_value;}'
@@ -12,8 +12,8 @@ def index(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         msg = request.POST.get('msg')
-        userid = User.objects.all().count()+1
-        user = User(name=name, msg=msg, date =datetime.today(), id =userid)
+        # userid = User.objects.all().count()+1
+        user = Users(name=name, msg=msg, date =datetime.today())
         try:
             user.save()
             messages.success(request, 'Your messgae has been sent!!!')
