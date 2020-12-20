@@ -1,0 +1,7 @@
+Watching for file changes with StatReloader
+C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET /show HTTP/1.1" 200 4792
+"GET /delete/3 HTTP/1.1" 302 0
+"GET /show HTTP/1.1" 200 4195
+C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.

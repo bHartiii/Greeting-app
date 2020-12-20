@@ -1,0 +1,66 @@
+Watching for file changes with StatReloader
+"GET /show HTTP/1.1" 200 4195
+"GET / HTTP/1.1" 200 2632
+C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+Watching for file changes with StatReloader
+"GET / HTTP/1.1" 200 2632
+C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+Watching for file changes with StatReloader
+C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO Watching for file changes with StatReloader
+INFO C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-20 23:44:38,597 autoreload Watching for file changes with StatReloader
+INFO 2020-12-20 23:44:46,507 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-20 23:44:47,670 basehttp "GET /show HTTP/1.1" 200 4195
+INFO 2020-12-20 23:45:10,988 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+{levelname} {asctime} {module} {message}
+{levelname} {asctime} {module} {message}
+{levelname} {asctime} {module} {message}
+{levelname} {asctime} {module} {message}
+INFO 2020-12-20 23:46:31,916 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:08:13,822 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:08:15,103 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:10:43,707 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:10:44,896 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:10:53,864 views All data is fetched from greeting database.
+INFO 2020-12-21 00:10:53,875 basehttp "GET /show HTTP/1.1" 200 4195
+INFO 2020-12-21 00:10:55,398 views New user is added to greeting database.
+INFO 2020-12-21 00:10:55,400 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 00:11:15,583 views All data is fetched from greeting database.
+INFO 2020-12-21 00:11:15,590 basehttp "GET /show HTTP/1.1" 200 4195
+INFO 2020-12-21 00:11:17,281 views Update page is rendered for user format{userid}.
+INFO 2020-12-21 00:11:17,303 basehttp "GET /update/2 HTTP/1.1" 200 2620
+INFO 2020-12-21 00:15:30,539 views All data is fetched from greeting database.
+INFO 2020-12-21 00:15:30,554 basehttp "GET /show HTTP/1.1" 200 4195
+INFO 2020-12-21 00:15:34,443 views Update page is rendered for user format{userid}.
+INFO 2020-12-21 00:15:34,452 basehttp "GET /update/4 HTTP/1.1" 200 2614
+INFO 2020-12-21 00:15:54,427 views data f'{userid} is updated in greeting databse 
+INFO 2020-12-21 00:15:54,431 basehttp "POST /update/4 HTTP/1.1" 302 0
+INFO 2020-12-21 00:15:54,435 views All data is fetched from greeting database.
+INFO 2020-12-21 00:15:54,953 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 00:16:44,953 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:16:45,698 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:16:52,257 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:16:53,187 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:17:11,935 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:17:12,754 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:17:22,410 views All data is fetched from greeting database.
+INFO 2020-12-21 00:17:22,425 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 00:17:29,022 basehttp "GET /update/2 HTTP/1.1" 200 2924
+INFO 2020-12-21 00:17:37,578 views All data is fetched from greeting database.
+INFO 2020-12-21 00:17:37,592 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 00:17:39,158 basehttp "GET /update/4 HTTP/1.1" 200 2619
+INFO 2020-12-21 00:18:52,392 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:18:53,145 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:18:58,735 views New user is added to greeting database.
+INFO 2020-12-21 00:18:58,742 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 00:19:00,867 views All data is fetched from greeting database.
+INFO 2020-12-21 00:19:00,880 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 00:19:02,496 views Update page is rendered for user 2.
+INFO 2020-12-21 00:19:02,516 basehttp "GET /update/2 HTTP/1.1" 200 2620
+INFO 2020-12-21 00:20:10,082 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:20:10,813 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:20:14,260 views Update page is rendered for user 2.
+INFO 2020-12-21 00:20:14,277 basehttp "GET /update/2 HTTP/1.1" 200 2620
+INFO 2020-12-21 00:21:40,874 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 00:21:41,638 autoreload Watching for file changes with StatReloader

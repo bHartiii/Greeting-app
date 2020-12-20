@@ -137,3 +137,31 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     BASE_DIR / "static",
 ]
+
+LOGGING = {
+    'version':1, 
+    'loggers' : {
+        'django' : {
+            'handlers':['file'],
+            'level' : 'DEBUG'
+        }
+    },
+    'handlers' : {
+        'file': {
+            'level': 'INFO',
+            'class':'logging.FileHandler',
+            'filename':'./logs/greetings.log',
+            'formatter':'simple',
+        },
+        'console': {
+            'class': 'logging.StreamHandler',
+            'level':'INFO'
+        },
+    },
+    'formatters':{
+        'simple':{
+            'format': '{levelname} {asctime} {module} {message}',
+            'style': '{'
+        }
+    }
+}
