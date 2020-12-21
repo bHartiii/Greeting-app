@@ -10,6 +10,7 @@
   {% endfor %}
 {% endif %}
     <div class="container"style="padding:5%;">
+      {% csrf_token %}
       <div class="row" style="padding:auto">
         {% for user in users %}
         <div class="col-3">

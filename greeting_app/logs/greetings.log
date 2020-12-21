@@ -622,3 +622,12 @@ INFO 2020-12-21 18:49:07,669 views data for user id 24 is updated in greeting da
 INFO 2020-12-21 18:49:07,671 basehttp "POST /update/24 HTTP/1.1" 302 0
 INFO 2020-12-21 18:49:07,677 views All data is fetched from greeting database.
 INFO 2020-12-21 18:49:08,185 basehttp "GET /show HTTP/1.1" 200 8082
+INFO 2020-12-21 23:13:23,674 views Update page is rendered for user 24.
+INFO 2020-12-21 23:13:23,690 basehttp "GET /update/24 HTTP/1.1" 200 2750
+INFO 2020-12-21 23:13:24,902 basehttp "GET / HTTP/1.1" 200 2763
+INFO 2020-12-21 23:13:24,924 basehttp "GET /static/css/greeting.css HTTP/1.1" 304 0
+INFO 2020-12-21 23:13:24,924 basehttp "GET /static/js/greeting.js HTTP/1.1" 304 0
+INFO 2020-12-21 23:13:34,142 views New user is added to greeting database.
+INFO 2020-12-21 23:13:34,143 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 23:13:34,146 views All data is fetched from greeting database.
+INFO 2020-12-21 23:13:34,649 basehttp "GET /show HTTP/1.1" 200 8940
