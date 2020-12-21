@@ -1,61 +1,69 @@
 # Greeting App
 
+### DESCRIPTION :
+
+    This is a django app in which user can perform CRUD operations on mpngodb database. 
+    It contains a form to take inputs fron user to create records.
+    It dispalys all records from the database on a card in a grid.
+    To delete and update buttons are given in card. 
+
 ### Pre-requirements for the project:
 
-    1. python - version: 3.7.7  
+1. python - version: 3.7.7  
 
 ### Installation of mongodb on system:
 
-* For Windows:
-    1. Download the installer.
-        - Download the MongoDB Community .msi installer from the following link:
-            https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.2-signed.msi
+**For Windows**:
+1. Download the installer.
+    - Download the MongoDB Community .msi installer from the following link:
+        https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-4.4.2-signed.msi
 
-            In the Version dropdown, select the version of MongoDB to download.
-            In the Platform dropdown, select Windows.
-            In the Package dropdown, select msi.
-            Click Download.
-    2. Run the MongoDB installer.
-    3. Configure system enviornment variables for mogodb
-    4. Run the mongodb server by using following command in cmd:
-        - mongo.exe
+        * In the Version dropdown, select the version of MongoDB to download.
+        * In the Platform dropdown, select Windows.
+        * In the Package dropdown, select msi.
+        * Click Download.
+2. Run the MongoDB installer.
+3. Configure system enviornment variables for mogodb
+4. Run the mongodb server by using following command in cmd:
+    - mongo.exe
 
-* For Ubuntu follow this link:
-    1. Import the public key used by the package management system.
+**For Ubuntu follow this link:**
+1.  Import the public key used by the package management system.
     From a terminal, issue the following command to import the MongoDB public GPG Key from https://www.mongodb.org/static/pgp/server-4.4.asc:
-    - wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
+    -   wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | sudo apt-key add -
     The operation should respond with an OK.
-    2. Create a list file for MongoDB.
-        Create the list file /etc/apt/sources.list.d/mongodb-org-4.4.list for your version of Ubuntu.
-    3. Create the /etc/apt/sources.list.d/mongodb-org-4.4.list file for Ubuntu 20.04 (Focal):
-        - echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
-    4. sudo apt-get update
-    5. sudo apt-get install -y mongodb-org
-    6. sudo systemctl start mongod
+2.  Create a list file for MongoDB.
+    Create the list file /etc/apt/sources.list.d/mongodb-org-4.4.list for your version of Ubuntu.
+3.  Create the /etc/apt/sources.list.d/mongodb-org-4.4.list file for Ubuntu 20.04 (Focal):
+    -   echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu focal/mongodb-org/4.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
+4. sudo apt-get update
+5. sudo apt-get install -y mongodb-org
+6. sudo systemctl start mongod
     
 ###  Create project directory and create virtual enviornment there:
 
-* Open prject directory using git bash :
-    - virtualenv venv
-    - cd venv\Scripts
-    - . activate
-    This will create activate the virtual enviornment name as venv.    
+**Open prject directory using git bash :**
+- virtualenv venv
+- cd venv\Scripts
+- . activate
+
+This will create activate the virtual enviornment name as venv.    
 
 ### Install django and create django project & app:
 
-* After activating virtual enviornment go to project directory and run following commands:
-    1. pip install django
-    2. django-admin startproject greeting_app
-    3. cd greeting_app
-    4. python manage.py startapp greetingsApp
+**After activating virtual enviornment go to project directory and run following commands:**
+1. pip install django
+2. django-admin startproject greeting_app
+3. cd greeting_app
+4. python manage.py startapp greetingsApp
 
 ### Configuration of database with django project:
 
-* Install djongo engine inside project directory:
-    - pip install djongo
-* Open settings.py:
-    - Comment the deafult sqlite3 database mapping.
-    - Add the following to it:
+**Install djongo engine inside project directory:**
+-   pip install djongo
+**Open settings.py:**
+-   Comment the deafult sqlite3 database mapping.
+-   Add the following to it:
 
     ----
         DATABASES = {
@@ -69,29 +77,28 @@
 
 ### Configuration of urls for greetingsApp:
 
-* Add the following line to urls.py of greeting_app:
+**Add the following line to urls.py of greeting_app:**
 
     ----
         path('', include('greetingsApp.urls')),
     ----
-* Create a file as urls.py inside greetingsApp directory:
-    - mkdir urls.py
-    - Add the following code for routing of api of this app:
 
-        ----
-            from django.contrib import admin
-            from django.urls import path
-            from greetingsApp import views
-        
+**Create a file as urls.py inside greetingsApp directory:**
+- mkdir urls.py
+- Add the following code for routing of api of this app:
+
+    ----
+        from django.contrib import admin
+        from django.urls import path
+        from greetingsApp import views
             urlpatterns = [
                 path('', views.index, name='index'),
-
             ]
-        ----
+    ----
 
 ### Create model to interact with database connected with this project:
 
-* Create a class for a collection:
+**Create a class for a collection:**
 
     ----
         class Users(models.Model):
@@ -102,7 +109,7 @@
 
 ### Register the model in admin.py
 
-* Every model has to be registered like this:
+**Every model has to be registered like this:**
 
     ----
         from django.contrib import admin
@@ -124,8 +131,10 @@
 * To create object of model:- python manage.py migrate
 
 ### Template creation:
-* Create a folder for templates inside project directory.
-    - Configure template folder in settings.py:
+
+**Create a folder for templates inside project directory.**
+
+-   Configure template folder in settings.py:
 
         ---
             TEMPLATES = [
@@ -135,7 +144,7 @@
                 ...
         ----
 
-    - Use html tags and jinja template to create dynamic html pages.
+-   Use html tags and jinja template to create dynamic html pages.
     - First create a base template as base.html
         1. In this template the code for header and footer will be written.
         2. Demo of passing the dynamic title for different templates using jinja templating:
@@ -145,7 +154,7 @@
             ----
 
         3. Give csrf_token in template for security purpose.
-    - Other templates will extend this base.html as base, so all pages will have same header and footer.
+-   Other templates will extend this base.html as base, so all pages will have same header and footer.
 
         ----
             {% extends 'base.html' %}
@@ -154,7 +163,7 @@
             {% endblock title %}
         ----
 
-    - Create a form in index.html.
+-   Create a form in index.html.
         1. Use POST method for create operation.
         2. Same code can be used for update.html
         3. Form should be inside body like:
@@ -171,7 +180,7 @@
                 {% endblock body %}
             ----
 
-    - Create a grid to display data from the database in show.html.
+-   Create a grid to display data from the database in show.html.
 
 ### Styling of templates:
 
@@ -190,8 +199,8 @@
 
 ### Create Api in views.py of greetingsApp to perform CRUD operations:
 
-* Name of functions should be same as given in urls.py for routing:
-- Example for create operation :
+**Name of functions should be same as given in urls.py for routing:**
+-   Example for create operation :
     
     ----
         def index(request):
@@ -218,7 +227,8 @@
 
 * Create a folder for log file
 * Create a log file greeting.log inside the log folder.
-* Configuration of greeting.log in setting.py:
+
+**Configuration of greeting.log in setting.py:**
 
     -----
         LOGGING = {
@@ -245,3 +255,7 @@
             }
         }
     -----
+
+
+## License & Copyright
+ © Bharti Mali, Bridgelabz
