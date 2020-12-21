@@ -64,3 +64,561 @@ INFO 2020-12-21 00:20:14,260 views Update page is rendered for user 2.
 INFO 2020-12-21 00:20:14,277 basehttp "GET /update/2 HTTP/1.1" 200 2620
 INFO 2020-12-21 00:21:40,874 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
 INFO 2020-12-21 00:21:41,638 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 00:48:35,540 basehttp "GET /swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 00:48:35,659 basehttp "GET /static/rest_framework_swagger/bundles/vendors.bundle.css HTTP/1.1" 304 0
+INFO 2020-12-21 00:48:35,661 basehttp "GET /static/rest_framework_swagger/bundles/vendors.bundle.js HTTP/1.1" 304 0
+INFO 2020-12-21 00:48:35,666 basehttp "GET /static/rest_framework_swagger/bundles/app.bundle.js HTTP/1.1" 304 0
+INFO 2020-12-21 00:48:35,699 basehttp "GET /static/rest_framework_swagger/bundles/app.bundle.css HTTP/1.1" 304 0
+INFO 2020-12-21 00:48:35,702 basehttp "GET /static/rest_framework_swagger/logo_small.png HTTP/1.1" 304 0
+WARNING 2020-12-21 00:48:41,987 log Not Found: /swagger
+WARNING 2020-12-21 00:48:41,987 basehttp "GET /swagger HTTP/1.1" 404 2816
+INFO 2020-12-21 00:55:17,752 basehttp "GET /swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:24,167 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:28,011 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:31,215 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:32,529 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:33,279 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:00:33,803 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2342
+INFO 2020-12-21 01:19:00,036 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 01:19:00,983 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:21:05,471 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:21:06,665 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:22:27,245 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:22:28,285 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:22:28,535 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2350
+INFO 2020-12-21 01:23:07,684 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:23:08,476 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:23:09,613 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2349
+INFO 2020-12-21 01:23:37,948 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:23:38,777 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:23:39,264 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2359
+INFO 2020-12-21 01:23:48,986 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:23:49,790 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:23:50,527 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2355
+INFO 2020-12-21 01:24:01,198 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:24:01,962 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:24:02,309 basehttp "GET /swagger-doc/?next=/swagger-doc/ HTTP/1.1" 200 2349
+INFO 2020-12-21 01:26:23,668 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:26:24,640 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:27:01,161 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:27:02,016 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:28:21,646 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:28:22,474 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:28:55,278 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:28:56,134 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:29:48,601 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:29:49,436 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:30:03,336 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:30:44,838 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:30:45,667 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:30:48,351 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:30:49,189 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:32:58,572 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:32:59,422 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:33:18,545 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:33:19,580 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:33:25,288 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:33:26,353 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:33:56,215 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:33:57,620 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:35:43,206 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:35:44,405 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:36:03,480 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\urls.py changed, reloading.
+INFO 2020-12-21 01:36:04,575 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:38:01,462 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:38:02,329 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:38:17,507 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\urls.py changed, reloading.
+INFO 2020-12-21 01:38:18,336 autoreload Watching for file changes with StatReloader
+WARNING 2020-12-21 01:38:32,251 log Not Found: /swagger
+WARNING 2020-12-21 01:38:32,251 basehttp "GET /swagger HTTP/1.1" 404 3079
+INFO 2020-12-21 01:38:55,340 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\urls.py changed, reloading.
+INFO 2020-12-21 01:38:56,472 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:38:56,962 basehttp "GET /swagger HTTP/1.1" 301 0
+INFO 2020-12-21 01:38:57,004 basehttp "GET /swagger/ HTTP/1.1" 200 2457
+INFO 2020-12-21 01:38:57,027 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 200 1047
+INFO 2020-12-21 01:38:57,034 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 200 143074
+INFO 2020-12-21 01:38:57,044 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 200 329649
+INFO 2020-12-21 01:38:57,048 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 200 2093
+INFO 2020-12-21 01:38:57,053 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 200 56904
+INFO 2020-12-21 01:38:57,056 basehttp "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 200 6092
+INFO 2020-12-21 01:38:57,062 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 200 14715
+INFO 2020-12-21 01:38:57,063 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 200 1038857
+INFO 2020-12-21 01:38:57,232 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2020-12-21 01:38:57,265 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+INFO 2020-12-21 01:39:12,776 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+INFO 2020-12-21 01:39:24,251 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+INFO 2020-12-21 01:39:25,122 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+INFO 2020-12-21 01:40:05,956 basehttp "GET /swagger-doc/ HTTP/1.1" 200 177
+INFO 2020-12-21 01:40:41,910 basehttp "GET /swagger-doc/ HTTP/1.1" 200 177
+INFO 2020-12-21 01:44:05,725 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:44:06,624 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:44:07,189 basehttp "GET /swagger/ HTTP/1.1" 200 2337
+INFO 2020-12-21 01:44:26,553 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:44:27,403 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:44:34,882 basehttp "GET /swagger1 HTTP/1.1" 301 0
+INFO 2020-12-21 01:44:34,908 basehttp "GET /swagger1/ HTTP/1.1" 200 2340
+INFO 2020-12-21 01:44:46,227 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:44:47,035 autoreload Watching for file changes with StatReloader
+WARNING 2020-12-21 01:44:50,708 log Not Found: /swagger1/
+WARNING 2020-12-21 01:44:50,708 basehttp "GET /swagger1/ HTTP/1.1" 404 3083
+INFO 2020-12-21 01:45:01,231 basehttp "GET /swagger/ HTTP/1.1" 200 2457
+INFO 2020-12-21 01:45:01,256 basehttp "GET /static/drf-yasg/style.css HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,256 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui.css HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,257 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-bundle.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,259 basehttp "GET /static/drf-yasg/insQ.min.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,259 basehttp "GET /static/drf-yasg/swagger-ui-dist/swagger-ui-standalone-preset.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,261 basehttp "GET /static/drf-yasg/immutable.min.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,264 basehttp "GET /static/drf-yasg/swagger-ui-init.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,265 basehttp "GET /static/drf-yasg/url-polyfill.min.js HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,437 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 304 0
+INFO 2020-12-21 01:45:01,445 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+INFO 2020-12-21 01:45:23,968 basehttp "GET /swagger-doc/ HTTP/1.1" 200 177
+INFO 2020-12-21 01:46:49,697 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 01:46:50,614 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:47:07,157 basehttp "GET /swagger/ HTTP/1.1" 200 2457
+INFO 2020-12-21 01:47:07,277 basehttp "GET /static/drf-yasg/swagger-ui-dist/favicon-32x32.png HTTP/1.1" 200 628
+INFO 2020-12-21 01:47:07,385 basehttp "GET /swagger/?format=openapi HTTP/1.1" 200 759
+ERROR 2020-12-21 01:47:16,330 log Internal Server Error: /swagger-doc/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\rest_framework_swagger\renderers.py", line 58, in render
+    renderer_context
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework_swagger/index.html
+ERROR 2020-12-21 01:47:16,332 basehttp "GET /swagger-doc/ HTTP/1.1" 500 109098
+INFO 2020-12-21 01:47:31,161 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:47:31,943 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:47:50,812 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:47:51,592 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:48:21,487 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:48:22,289 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:48:37,591 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:48:38,399 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:48:44,979 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\urls.py changed, reloading.
+INFO 2020-12-21 01:48:45,783 autoreload Watching for file changes with StatReloader
+ERROR 2020-12-21 01:48:51,665 log Internal Server Error: /swagger-doc/
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 145, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 143, in _get_response
+    response = response.render()
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\rest_framework\response.py", line 70, in rendered_content
+    ret = renderer.render(self.data, accepted_media_type, context)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\rest_framework_swagger\renderers.py", line 58, in render
+    renderer_context
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: rest_framework_swagger/index.html
+ERROR 2020-12-21 01:48:51,668 basehttp "GET /swagger-doc/ HTTP/1.1" 500 109235
+INFO 2020-12-21 01:50:05,363 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 01:50:06,141 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 01:50:12,851 basehttp "GET /swagger-doc/ HTTP/1.1" 200 2349
+INFO 2020-12-21 02:23:14,590 views New user is added to greeting database.
+INFO 2020-12-21 02:23:14,600 basehttp "OPTIONS / HTTP/1.1" 200 2632
+INFO 2020-12-21 02:23:25,450 views New user is added to greeting database.
+INFO 2020-12-21 02:23:25,456 basehttp "OPTIONS / HTTP/1.1" 200 2632
+INFO 2020-12-21 02:23:50,592 views All data is fetched from greeting database.
+INFO 2020-12-21 02:23:50,646 basehttp "OPTIONS /show HTTP/1.1" 200 4201
+INFO 2020-12-21 02:24:18,347 views New user is added to greeting database.
+INFO 2020-12-21 02:24:18,355 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 02:24:18,408 basehttp "GET /static/css/greeting.css HTTP/1.1" 304 0
+INFO 2020-12-21 02:24:18,419 basehttp "GET /static/js/greeting.js HTTP/1.1" 304 0
+INFO 2020-12-21 02:24:22,600 views All data is fetched from greeting database.
+INFO 2020-12-21 02:24:22,629 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 02:24:29,310 views All data is fetched from greeting database.
+INFO 2020-12-21 02:24:29,342 basehttp "OPTIONS /show HTTP/1.1" 200 4201
+INFO 2020-12-21 02:25:48,422 views New user is added to greeting database.
+INFO 2020-12-21 02:25:48,426 basehttp "OPTIONS / HTTP/1.1" 200 2632
+INFO 2020-12-21 02:26:20,035 views New user is added to greeting database.
+INFO 2020-12-21 02:26:20,043 basehttp "OPTIONS / HTTP/1.1" 200 2632
+INFO 2020-12-21 14:15:51,075 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 14:15:55,193 views All data is fetched from greeting database.
+INFO 2020-12-21 14:15:55,245 basehttp "GET /show HTTP/1.1" 200 4201
+INFO 2020-12-21 14:15:55,354 basehttp "GET /static/js/greeting.js HTTP/1.1" 304 0
+INFO 2020-12-21 14:15:55,470 basehttp "GET /static/css/greeting.css HTTP/1.1" 304 0
+WARNING 2020-12-21 14:15:56,024 log Not Found: /favicon.ico
+WARNING 2020-12-21 14:15:56,026 basehttp "GET /favicon.ico HTTP/1.1" 404 3089
+INFO 2020-12-21 14:16:00,281 views Update page is rendered for user 2.
+INFO 2020-12-21 14:16:00,429 basehttp "GET /update/2 HTTP/1.1" 200 2620
+INFO 2020-12-21 14:16:01,969 views New user is added to greeting database.
+INFO 2020-12-21 14:16:01,975 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 15:01:32,780 views New user is added to greeting database.
+INFO 2020-12-21 15:01:32,870 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 15:01:41,173 views All data is fetched from greeting database.
+INFO 2020-12-21 15:01:41,654 basehttp "GET /show HTTP/1.1" 200 4794
+INFO 2020-12-21 15:02:10,803 views Update page is rendered for user 4.
+INFO 2020-12-21 15:02:11,219 basehttp "GET /update/4 HTTP/1.1" 200 2619
+INFO 2020-12-21 15:02:17,236 views data for user id 4 is updated in greeting databse 
+INFO 2020-12-21 15:02:17,548 basehttp "POST /update/4 HTTP/1.1" 302 0
+INFO 2020-12-21 15:02:17,771 views All data is fetched from greeting database.
+INFO 2020-12-21 15:02:18,270 basehttp "GET /show HTTP/1.1" 200 4798
+INFO 2020-12-21 15:05:49,367 views New user is added to greeting database.
+INFO 2020-12-21 15:05:49,431 basehttp "GET / HTTP/1.1" 200 2932
+INFO 2020-12-21 15:06:01,189 views New user is added to greeting database.
+INFO 2020-12-21 15:06:01,236 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 15:06:05,005 views All data is fetched from greeting database.
+INFO 2020-12-21 15:06:05,492 basehttp "GET /show HTTP/1.1" 200 5395
+INFO 2020-12-21 15:06:37,308 views Update page is rendered for user 9.
+INFO 2020-12-21 15:06:37,750 basehttp "GET /update/9 HTTP/1.1" 200 2616
+INFO 2020-12-21 15:06:43,811 views data for user id 9 is updated in greeting databse 
+INFO 2020-12-21 15:06:43,825 basehttp "POST /update/9 HTTP/1.1" 302 0
+INFO 2020-12-21 15:06:44,131 views All data is fetched from greeting database.
+INFO 2020-12-21 15:06:44,722 basehttp "GET /show HTTP/1.1" 200 5400
+INFO 2020-12-21 16:59:15,129 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 16:59:16,992 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 16:59:29,948 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 16:59:31,889 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 16:59:53,075 views Update page is rendered for user 9.
+INFO 2020-12-21 16:59:53,153 basehttp "GET /update/9 HTTP/1.1" 200 2925
+INFO 2020-12-21 16:59:58,041 views New user is added to greeting database.
+INFO 2020-12-21 16:59:58,047 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 17:00:04,409 views New user is added to greeting database.
+INFO 2020-12-21 17:00:04,416 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:00:08,715 views All data is fetched from greeting database.
+INFO 2020-12-21 17:00:08,762 basehttp "GET /show HTTP/1.1" 200 6002
+INFO 2020-12-21 17:05:47,798 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 17:05:49,485 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:05:56,299 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\urls.py changed, reloading.
+INFO 2020-12-21 17:05:58,225 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:07:08,765 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:07:11,191 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:07:13,754 views All data is fetched from greeting database.
+INFO 2020-12-21 17:07:13,872 basehttp "GET /show HTTP/1.1" 200 6002
+INFO 2020-12-21 17:07:15,338 views New user is added to greeting database.
+INFO 2020-12-21 17:07:15,345 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 17:07:21,575 views New user is added to greeting database.
+INFO 2020-12-21 17:07:21,579 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:07:26,336 views All data is fetched from greeting database.
+INFO 2020-12-21 17:07:26,363 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 17:07:58,179 views New user is added to greeting database.
+INFO 2020-12-21 17:07:58,186 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 17:08:05,509 views New user is added to greeting database.
+INFO 2020-12-21 17:08:05,514 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:08:07,920 views All data is fetched from greeting database.
+INFO 2020-12-21 17:08:07,943 basehttp "GET /show HTTP/1.1" 200 7206
+INFO 2020-12-21 17:08:52,005 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:08:54,311 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:10:20,956 views user12 is deleted from greeting database.
+INFO 2020-12-21 17:10:20,979 basehttp "GET /delete/12 HTTP/1.1" 302 0
+INFO 2020-12-21 17:10:20,992 views All data is fetched from greeting database.
+INFO 2020-12-21 17:10:21,154 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 17:10:33,554 views New user is added to greeting database.
+INFO 2020-12-21 17:10:33,560 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 17:10:39,287 views New user is added to greeting database.
+INFO 2020-12-21 17:10:39,291 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:10:43,092 views All data is fetched from greeting database.
+INFO 2020-12-21 17:10:43,120 basehttp "GET /show HTTP/1.1" 200 7205
+INFO 2020-12-21 17:11:57,329 views Update page is rendered for user 13.
+INFO 2020-12-21 17:11:57,359 basehttp "GET /update/13 HTTP/1.1" 200 2619
+INFO 2020-12-21 17:12:02,722 views data for user id 13 is updated in greeting databse 
+INFO 2020-12-21 17:12:02,725 basehttp "POST /update/13 HTTP/1.1" 302 0
+INFO 2020-12-21 17:12:02,740 views All data is fetched from greeting database.
+INFO 2020-12-21 17:12:03,239 basehttp "GET /show HTTP/1.1" 200 7207
+INFO 2020-12-21 17:17:15,044 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:17:17,424 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:17:22,679 views New user is added to greeting database.
+INFO 2020-12-21 17:17:22,716 basehttp "GET / HTTP/1.1" 200 2932
+INFO 2020-12-21 17:17:29,813 views New user is added to greeting database.
+INFO 2020-12-21 17:17:29,821 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:17:33,468 views All data is fetched from greeting database.
+INFO 2020-12-21 17:17:33,509 basehttp "GET /show HTTP/1.1" 200 7804
+INFO 2020-12-21 17:19:23,640 views Update page is rendered for user 14.
+INFO 2020-12-21 17:19:23,707 basehttp "GET /update/14 HTTP/1.1" 200 2614
+INFO 2020-12-21 17:19:29,545 views data for user id 14 is updated in greeting databse 
+INFO 2020-12-21 17:19:29,557 basehttp "POST /update/14 HTTP/1.1" 302 0
+INFO 2020-12-21 17:19:29,563 views All data is fetched from greeting database.
+INFO 2020-12-21 17:19:30,081 basehttp "GET /show HTTP/1.1" 200 7803
+INFO 2020-12-21 17:24:50,461 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:24:53,004 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:24:54,965 views New user is added to greeting database.
+INFO 2020-12-21 17:24:55,001 basehttp "GET / HTTP/1.1" 200 2932
+INFO 2020-12-21 17:25:07,155 views New user is added to greeting database.
+INFO 2020-12-21 17:25:07,163 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:25:09,744 views All data is fetched from greeting database.
+INFO 2020-12-21 17:25:09,787 basehttp "GET /show HTTP/1.1" 200 8401
+INFO 2020-12-21 17:25:49,053 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:25:50,855 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:26:02,941 views New user is added to greeting database.
+INFO 2020-12-21 17:26:02,959 basehttp "GET / HTTP/1.1" 200 2632
+ERROR 2020-12-21 17:26:11,774 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py", line 14, in index
+    user = Users(name=name, msg=msg, date =datetime.today(timezone.now()))
+TypeError: today() takes no arguments (1 given)
+ERROR 2020-12-21 17:26:11,779 basehttp "POST / HTTP/1.1" 500 77923
+INFO 2020-12-21 17:27:17,606 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:27:19,485 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:27:25,923 views New user is added to greeting database.
+INFO 2020-12-21 17:27:25,944 basehttp "GET / HTTP/1.1" 200 2632
+ERROR 2020-12-21 17:27:32,817 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py", line 14, in index
+    user = Users(name=name, msg=msg, date =datetime.datetime(timezone.now()))
+AttributeError: type object 'datetime.datetime' has no attribute 'datetime'
+ERROR 2020-12-21 17:27:32,821 basehttp "POST / HTTP/1.1" 500 78139
+INFO 2020-12-21 17:29:16,889 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:29:19,541 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:29:29,883 views New user is added to greeting database.
+INFO 2020-12-21 17:29:29,898 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:29:32,621 views All data is fetched from greeting database.
+INFO 2020-12-21 17:29:32,693 basehttp "GET /show HTTP/1.1" 200 9005
+INFO 2020-12-21 17:30:07,156 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\models.py changed, reloading.
+INFO 2020-12-21 17:30:09,745 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:30:10,448 views All data is fetched from greeting database.
+INFO 2020-12-21 17:30:10,495 basehttp "GET /show HTTP/1.1" 200 9005
+INFO 2020-12-21 17:30:13,853 views All data is fetched from greeting database.
+INFO 2020-12-21 17:30:13,912 basehttp "GET /show HTTP/1.1" 200 9005
+INFO 2020-12-21 17:30:17,000 views New user is added to greeting database.
+INFO 2020-12-21 17:30:17,041 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 17:30:25,497 views New user is added to greeting database.
+INFO 2020-12-21 17:30:25,502 basehttp "POST / HTTP/1.1" 200 2929
+INFO 2020-12-21 17:30:27,823 views All data is fetched from greeting database.
+INFO 2020-12-21 17:30:27,861 basehttp "GET /show HTTP/1.1" 200 9603
+INFO 2020-12-21 17:30:40,464 views Update page is rendered for user 17.
+INFO 2020-12-21 17:30:40,496 basehttp "GET /update/17 HTTP/1.1" 200 2621
+INFO 2020-12-21 17:30:44,917 views data for user id 17 is updated in greeting databse 
+INFO 2020-12-21 17:30:44,940 basehttp "POST /update/17 HTTP/1.1" 302 0
+INFO 2020-12-21 17:30:44,961 views All data is fetched from greeting database.
+INFO 2020-12-21 17:30:45,435 basehttp "GET /show HTTP/1.1" 200 9605
+INFO 2020-12-21 17:30:50,808 views Update page is rendered for user 15.
+INFO 2020-12-21 17:30:50,832 basehttp "GET /update/15 HTTP/1.1" 200 2919
+INFO 2020-12-21 17:30:57,403 views data for user id 15 is updated in greeting databse 
+INFO 2020-12-21 17:30:57,406 basehttp "POST /update/15 HTTP/1.1" 302 0
+INFO 2020-12-21 17:30:57,413 views All data is fetched from greeting database.
+INFO 2020-12-21 17:30:57,947 basehttp "GET /show HTTP/1.1" 200 9605
+INFO 2020-12-21 17:31:13,593 views Update page is rendered for user 17.
+INFO 2020-12-21 17:31:13,630 basehttp "GET /update/17 HTTP/1.1" 200 2927
+INFO 2020-12-21 17:31:19,697 views data for user id 17 is updated in greeting databse 
+INFO 2020-12-21 17:31:19,699 basehttp "POST /update/17 HTTP/1.1" 302 0
+INFO 2020-12-21 17:31:19,714 views All data is fetched from greeting database.
+INFO 2020-12-21 17:31:20,217 basehttp "GET /show HTTP/1.1" 200 9617
+INFO 2020-12-21 17:31:35,321 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\models.py changed, reloading.
+INFO 2020-12-21 17:31:37,675 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 17:38:20,818 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 17:38:23,138 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:26:17,190 views All data is fetched from greeting database.
+INFO 2020-12-21 18:26:17,204 basehttp "GET /show HTTP/1.1" 200 9617
+INFO 2020-12-21 18:26:17,236 basehttp "GET /static/css/greeting.css HTTP/1.1" 304 0
+INFO 2020-12-21 18:26:18,179 views Update page is rendered for user 17.
+INFO 2020-12-21 18:26:18,190 basehttp "GET /update/17 HTTP/1.1" 200 2933
+INFO 2020-12-21 18:26:21,974 views Update page is rendered for user 17.
+INFO 2020-12-21 18:26:21,997 basehttp "GET /update/17 HTTP/1.1" 200 2629
+INFO 2020-12-21 18:26:22,644 views Update page is rendered for user 17.
+INFO 2020-12-21 18:26:22,666 basehttp "GET /update/17 HTTP/1.1" 200 2629
+INFO 2020-12-21 18:26:26,154 views New user is added to greeting database.
+INFO 2020-12-21 18:26:26,157 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:27:41,960 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:27:42,808 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:27:44,458 basehttp "GET / HTTP/1.1" 200 2632
+ERROR 2020-12-21 18:28:02,384 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py", line 14, in index
+    user = Users(name=name, msg=msg, date =timezone.now(TIME_ZONE))
+NameError: name 'TIME_ZONE' is not defined
+ERROR 2020-12-21 18:28:02,386 basehttp "POST / HTTP/1.1" 500 77933
+INFO 2020-12-21 18:28:19,113 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:28:19,900 autoreload Watching for file changes with StatReloader
+ERROR 2020-12-21 18:28:21,323 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py", line 14, in index
+    user = Users(name=name, msg=msg, date =timezone.now(TIME_ZONE='UTC'))
+TypeError: now() got an unexpected keyword argument 'TIME_ZONE'
+ERROR 2020-12-21 18:28:21,325 basehttp "POST / HTTP/1.1" 500 78049
+INFO 2020-12-21 18:28:32,114 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:28:32,901 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:28:38,007 views New user is added to greeting database.
+INFO 2020-12-21 18:28:38,010 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:28:38,013 views All data is fetched from greeting database.
+INFO 2020-12-21 18:28:38,172 basehttp "GET /show HTTP/1.1" 200 10216
+INFO 2020-12-21 18:28:47,270 views All data is fetched from greeting database.
+INFO 2020-12-21 18:28:47,294 basehttp "GET /show HTTP/1.1" 200 10216
+INFO 2020-12-21 18:28:49,152 basehttp "GET / HTTP/1.1" 200 2929
+INFO 2020-12-21 18:31:26,445 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:31:27,471 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:31:43,180 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:32:02,240 views New user is added to greeting database.
+INFO 2020-12-21 18:32:02,243 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:32:02,246 views All data is fetched from greeting database.
+INFO 2020-12-21 18:32:02,467 basehttp "GET /show HTTP/1.1" 200 11083
+INFO 2020-12-21 18:32:11,555 views Update page is rendered for user 17.
+INFO 2020-12-21 18:32:11,592 basehttp "GET /update/17 HTTP/1.1" 200 2638
+INFO 2020-12-21 18:32:15,726 views data for user id 17 is updated in greeting databse 
+INFO 2020-12-21 18:32:15,727 basehttp "POST /update/17 HTTP/1.1" 302 0
+INFO 2020-12-21 18:32:15,729 views All data is fetched from greeting database.
+INFO 2020-12-21 18:32:16,241 basehttp "GET /show HTTP/1.1" 200 11079
+INFO 2020-12-21 18:32:22,081 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:32:26,465 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:32:28,757 views All data is fetched from greeting database.
+INFO 2020-12-21 18:32:28,774 basehttp "GET /show HTTP/1.1" 200 10811
+INFO 2020-12-21 18:36:05,302 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:36:06,137 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:36:58,116 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:36:59,229 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:41:05,942 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:41:07,059 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:41:10,701 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:41:22,244 views New user is added to greeting database.
+INFO 2020-12-21 18:41:22,248 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:41:22,252 views All data is fetched from greeting database.
+INFO 2020-12-21 18:41:22,358 basehttp "GET /show HTTP/1.1" 200 11671
+INFO 2020-12-21 18:42:36,733 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:42:37,514 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:42:43,918 basehttp "GET / HTTP/1.1" 200 2632
+ERROR 2020-12-21 18:42:49,977 log Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\LENOVO\django_projects\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py", line 14, in index
+    user = Users(name=name, msg=msg, date=auto_now)
+NameError: name 'auto_now' is not defined
+ERROR 2020-12-21 18:42:49,979 basehttp "POST / HTTP/1.1" 500 77907
+INFO 2020-12-21 18:42:58,453 autoreload C:\Users\LENOVO\django_projects\greeting_app\greetingsApp\views.py changed, reloading.
+INFO 2020-12-21 18:42:59,237 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:43:01,186 views New user is added to greeting database.
+INFO 2020-12-21 18:43:01,190 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:43:01,193 views All data is fetched from greeting database.
+INFO 2020-12-21 18:43:01,498 basehttp "GET /show HTTP/1.1" 200 12276
+INFO 2020-12-21 18:43:10,981 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:43:17,762 views New user is added to greeting database.
+INFO 2020-12-21 18:43:17,762 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:43:17,765 views All data is fetched from greeting database.
+INFO 2020-12-21 18:43:18,269 basehttp "GET /show HTTP/1.1" 200 12869
+INFO 2020-12-21 18:43:48,333 views user22 is deleted from greeting database.
+INFO 2020-12-21 18:43:48,334 basehttp "GET /delete/22 HTTP/1.1" 302 0
+INFO 2020-12-21 18:43:48,338 views All data is fetched from greeting database.
+INFO 2020-12-21 18:43:48,857 basehttp "GET /show HTTP/1.1" 200 12015
+INFO 2020-12-21 18:43:58,419 views user18 is deleted from greeting database.
+INFO 2020-12-21 18:43:58,420 basehttp "GET /delete/18 HTTP/1.1" 302 0
+INFO 2020-12-21 18:43:58,425 views All data is fetched from greeting database.
+INFO 2020-12-21 18:43:58,945 basehttp "GET /show HTTP/1.1" 200 11416
+INFO 2020-12-21 18:44:03,797 views user20 is deleted from greeting database.
+INFO 2020-12-21 18:44:03,797 basehttp "GET /delete/20 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:03,800 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:04,311 basehttp "GET /show HTTP/1.1" 200 10817
+INFO 2020-12-21 18:44:08,331 views user19 is deleted from greeting database.
+INFO 2020-12-21 18:44:08,331 basehttp "GET /delete/19 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:08,334 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:08,846 basehttp "GET /show HTTP/1.1" 200 10216
+INFO 2020-12-21 18:44:12,783 views user21 is deleted from greeting database.
+INFO 2020-12-21 18:44:12,784 basehttp "GET /delete/21 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:12,786 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:13,299 basehttp "GET /show HTTP/1.1" 200 9611
+INFO 2020-12-21 18:44:18,080 views user14 is deleted from greeting database.
+INFO 2020-12-21 18:44:18,081 basehttp "GET /delete/14 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:18,084 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:18,592 basehttp "GET /show HTTP/1.1" 200 9015
+INFO 2020-12-21 18:44:22,732 views user16 is deleted from greeting database.
+INFO 2020-12-21 18:44:22,733 basehttp "GET /delete/16 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:22,736 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:23,255 basehttp "GET /show HTTP/1.1" 200 8411
+INFO 2020-12-21 18:44:25,788 views user5 is deleted from greeting database.
+INFO 2020-12-21 18:44:25,789 basehttp "GET /delete/5 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:25,793 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:26,312 basehttp "GET /show HTTP/1.1" 200 7809
+INFO 2020-12-21 18:44:28,718 views user4 is deleted from greeting database.
+INFO 2020-12-21 18:44:28,718 basehttp "GET /delete/4 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:28,721 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:29,220 basehttp "GET /show HTTP/1.1" 200 7204
+INFO 2020-12-21 18:44:32,984 views user11 is deleted from greeting database.
+INFO 2020-12-21 18:44:32,984 basehttp "GET /delete/11 HTTP/1.1" 302 0
+INFO 2020-12-21 18:44:32,987 views All data is fetched from greeting database.
+INFO 2020-12-21 18:44:33,505 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 18:46:13,139 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 18:46:13,974 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:46:17,323 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:17,336 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 18:46:18,120 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:18,152 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 18:46:18,207 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:18,554 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:18,655 basehttp "GET /show HTTP/1.1" 200 6603
+INFO 2020-12-21 18:46:19,729 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:46:26,956 views New user is added to greeting database.
+INFO 2020-12-21 18:46:26,959 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:46:26,963 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:27,470 basehttp "GET /show HTTP/1.1" 200 7462
+INFO 2020-12-21 18:46:35,104 views Update page is rendered for user 23.
+INFO 2020-12-21 18:46:35,135 basehttp "GET /update/23 HTTP/1.1" 200 2611
+INFO 2020-12-21 18:46:38,918 views data for user id 23 is updated in greeting databse 
+INFO 2020-12-21 18:46:38,919 basehttp "POST /update/23 HTTP/1.1" 302 0
+INFO 2020-12-21 18:46:38,923 views All data is fetched from greeting database.
+INFO 2020-12-21 18:46:39,431 basehttp "GET /show HTTP/1.1" 200 7476
+INFO 2020-12-21 18:47:25,353 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 18:47:26,193 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:47:30,086 views All data is fetched from greeting database.
+ERROR 2020-12-21 18:47:30,871 basehttp "GET /show HTTP/1.1" 500 59
+INFO 2020-12-21 18:47:35,819 views Update page is rendered for user 23.
+INFO 2020-12-21 18:47:35,956 basehttp "GET /update/23 HTTP/1.1" 200 2617
+INFO 2020-12-21 18:47:37,442 views Update page is rendered for user 23.
+INFO 2020-12-21 18:47:37,473 basehttp "GET /update/23 HTTP/1.1" 200 2617
+INFO 2020-12-21 18:47:38,265 views All data is fetched from greeting database.
+ERROR 2020-12-21 18:47:38,948 basehttp "GET /show HTTP/1.1" 500 59
+INFO 2020-12-21 18:47:44,582 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:48:15,108 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 18:48:15,956 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:48:20,474 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:48:22,432 views All data is fetched from greeting database.
+ERROR 2020-12-21 18:48:23,299 basehttp "GET /show HTTP/1.1" 500 59
+INFO 2020-12-21 18:48:47,549 autoreload C:\Users\LENOVO\django_projects\greeting_app\greeting_app\settings.py changed, reloading.
+INFO 2020-12-21 18:48:48,565 autoreload Watching for file changes with StatReloader
+INFO 2020-12-21 18:48:49,595 basehttp "GET / HTTP/1.1" 200 2632
+INFO 2020-12-21 18:48:58,954 views New user is added to greeting database.
+INFO 2020-12-21 18:48:58,957 basehttp "POST / HTTP/1.1" 302 0
+INFO 2020-12-21 18:48:58,961 views All data is fetched from greeting database.
+INFO 2020-12-21 18:48:59,329 basehttp "GET /show HTTP/1.1" 200 8072
+INFO 2020-12-21 18:49:03,481 views Update page is rendered for user 24.
+INFO 2020-12-21 18:49:03,492 basehttp "GET /update/24 HTTP/1.1" 200 2617
+INFO 2020-12-21 18:49:07,669 views data for user id 24 is updated in greeting databse 
+INFO 2020-12-21 18:49:07,671 basehttp "POST /update/24 HTTP/1.1" 302 0
+INFO 2020-12-21 18:49:07,677 views All data is fetched from greeting database.
+INFO 2020-12-21 18:49:08,185 basehttp "GET /show HTTP/1.1" 200 8082

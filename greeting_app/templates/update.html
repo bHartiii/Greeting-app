@@ -1,14 +1,6 @@
 {% extends 'base.html' %}
 {% block title %}Updates{% endblock title %}
 {% block body %}
-    {% if messages %}
-        {% for message in messages %}
-            <div class="alert alert-{{ message.tags }} alert-dissimsible fade show" role="alert">
-                <strong>{{ message }}</strong>
-                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-            </div>
-        {% endfor %}
-    {% endif %}
     {% if users %}
     {% for user in users %}
     <div class="container" style="padding:5%">

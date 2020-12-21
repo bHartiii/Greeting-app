@@ -1,6 +1,7 @@
 import logging
 from django.shortcuts import render,HttpResponse,redirect
 from datetime import datetime
+from django.utils import timezone
 from greetingsApp.models import Users
 from django.contrib import messages
 logger = logging.getLogger('django')
@@ -10,13 +11,14 @@ def index(request):
     if request.method == 'POST':
         name = request.POST.get('name')
         msg = request.POST.get('msg')
-        user = Users(name=name, msg=msg, date =datetime.today())
+        user = Users(name=name, msg=msg)
         try:
             user.save()
-            messages.success(request, 'Your messgae has been sent!!!')
+            messages.success(request, 'Your greeting is added!!!')
         except:
             pass
-    logger.info("New user is added to greeting database.")
+        logger.info("New user is added to greeting database.")
+        return redirect('/show')
     return render(request,'index.html')
 
 def show(request):
@@ -31,10 +33,10 @@ def update(request, id):
     if request.method=='POST':
         name = request.POST.get('name')
         msg = request.POST.get('msg')
-        user_object = Users(name=name, msg=msg, date=datetime.today(),id=userid)
+        user_object = Users(name=name, msg=msg, date=datetime.today().now(),id=userid)
         try:
             user_object.save()
-            messages.success(request, 'Your messgae has been updated!!!')
+            messages.success(request, 'Your greeting has been updated!!!')
         except:
             pass
         logger.info(f"data for user id {userid} is updated in greeting databse ")
